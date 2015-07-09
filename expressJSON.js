@@ -24,4 +24,4 @@ res.json({msg: "Hello World"});
 	
 });
 
-app.listen(1337);
+app.listen(process.argv[2] || 1337);
